@@ -1,0 +1,127 @@
+#title {
+    background-color: #ebebeb;
+}
+
+body {
+    font-family: "Montserrat-Black";
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+}
+img {
+    width: 30%;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Montserrat-Black";
+    font-weight: bolder;
+}  
+
+
+
+/* navigation bar */
+.container-fluid {
+    display: flex;
+    background-color: #ebebeb;
+    padding: 0;
+}
+.navbar {
+    padding: 0;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 0 290px 0 10px;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+}
+.active {
+    padding: 0 200px;
+}
+
+li.nav-item.active {
+    padding: 0 100px 0 200px;
+}
+
+/* features section */
+#features {
+    margin: 30px 0;
+}
+
+.feature-title {
+    margin: 40px 0;
+}
+
+.usp-row {
+    width: 70%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.usp-image-1 {
+    border-radius: 10%;
+    width: 25%;
+    float: left;
+    margin-right: 50px;
+}
+
+.usp-image-2 {
+    border-radius: 40%;
+    width: 25%;
+    float: right;
+    margin-right: 30px;
+}
+
+#footer {
+    background-color: black;
+    color: #fff;
+}
+
+.foot-row {
+    display: flex;    
+}
+
+ul {
+    list-style-type: none;
+    margin: 20px 0;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.foot-bn {
+    margin-left: 200px;
+}
+.second {
+    margin-right: 400px;
+}
+.first {
+    padding: 0 30px;
+}
+@media screen and (max-width: 1028px) {
+    .foot-row {
+        display: flex;    
+    }
+    body {
+        font-family: "Montserrat-Black";
+        font-weight: bold;
+        text-align: center;
+        margin: auto;
+        padding: auto;
+    }
+    #footer{
+        text-align: center;
+        width: auto;
+    }
+}
